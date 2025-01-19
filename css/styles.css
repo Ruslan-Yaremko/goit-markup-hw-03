@@ -126,15 +126,7 @@ img{
     padding: 0;
     margin: 0;
 }
-
-.contacts li {
-    margin-right: 40px;
-}
-
-.contacts li:last-child {
-    margin-right: 0;
-}
-   
+  
 .address-text{
     font-size: 16px;
     line-height: 1.5;
