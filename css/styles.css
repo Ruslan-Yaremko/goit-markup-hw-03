@@ -57,7 +57,10 @@ img{
     align-items: center;
 }
 
-.link-text{
+.link-text{}
+
+.div-nav{
+    display: flex;
 }
 
 .link-nav{
@@ -245,6 +248,7 @@ img{
 .team-list {
     display: flex;
     gap: 24px;
+
 }
 
 .div-head{
