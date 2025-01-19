@@ -124,6 +124,14 @@ img{
     margin: 0;
 }
 
+.address-item li {
+    margin-right: 40px;
+}
+
+.address-itemli:last-child {
+    margin-right: 0;
+}
+
 .address-text{
     font-size: 16px;
     line-height: 1.5;
