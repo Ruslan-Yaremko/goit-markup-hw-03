@@ -117,27 +117,21 @@ img{
 }
 
 .address{
+}
+
+.contacts {
     display: flex;
     gap: 40px;
     list-style: none;
     padding: 0;
     margin: 0;
-    font-style: normal;
-    margin-left: 332px;
 }
 
-.address-item{
-    display: flex;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.address-item li{
+.contacts li {
     margin-right: 40px;
 }
 
-.address-item li:(last-child) {
+.contacts li:last-child {
     margin-right: 0;
 }
    
