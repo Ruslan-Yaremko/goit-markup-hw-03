@@ -253,7 +253,9 @@ img{
 .team-list {
     display: flex;
     gap: 24px;
-width: calc((100% - 72px) / 4);
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .div-head{
@@ -264,6 +266,18 @@ width: calc((100% - 72px) / 4);
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
     flex-basis: calc((100% - 3 * 24px) / 4);
+}
+
+.team-one{
+    width: calc((100% - 3 * 24px) / 4);
+}
+
+.team-iteil:not(:last-child) {
+    margin-right: 24px;
+}
+
+.team-iteil:last-child {
+    margin-right: 0;
 }
 
 .team-img {}
