@@ -60,6 +60,10 @@ img{
 .link-text{
 }
 
+.link-nav{
+    padding: 24px 0;
+}
+
 .logo-link {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -70,6 +74,7 @@ img{
     color:#4d5ae5;
     margin-right: 76px;
     padding: 24px 0;
+    margin-left: 156px;
 }
 
 .header-menu-list{
@@ -109,23 +114,20 @@ img{
 }
 
 .address{
-    font-style: normal;
-}
-
-.address-div{
     display: flex;
     gap: 40px;
     list-style: none;
     padding: 0;
     margin: 0;
-    justify-content: flex-start;
+    font-style: normal;
+    margin-left: 332px;
 }
 
-.address-div li{
+.address li{
     margin-right: 40px;
 }
 
-.address-div li:(last-child) {
+.address li:(last-child) {
     margin-right: 0;
 }
    
@@ -134,8 +136,8 @@ img{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    font-style: normal;
 }
-.address-1{}
 
 .address-text:hover,
 .address-text:focus{
@@ -278,7 +280,7 @@ img{
 .portfolio {}
 
 .portfolio-item{
-    width: calc((100% - 48px) / 3);
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .portfolio-title {
