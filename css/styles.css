@@ -116,15 +116,7 @@ img{
     color:#404bbf ;
 }
 
-.address{
-    display: flex;
-    gap: 40px;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.address-itam{
+.address-item{
     display: flex;
     gap: 40px;
     list-style: none;
