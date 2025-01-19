@@ -124,15 +124,6 @@ img{
     margin: 0;
 }
 
-
-.contacts { 
-    display: flex;
-    gap: 40px;
-    list-style: none;
-    padding: 0;
-    margin: 0;
- }
-  
 .address-text{
     font-size: 16px;
     line-height: 1.5;
